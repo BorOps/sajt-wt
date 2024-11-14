@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+/* .container{
+    width: 80%;
+    margin: 0 auto;
+} */
+.main_header{
+    margin: 0 auto;
+    width: 100%;
+    height: 130px;
+}
+ul{
+    list-style: none;
+}
+.pre_header{
+    width: 100%;
+    background-color: #68243c;
+    display: flex;
+}
+.header{
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.header_logo{
+    width: 45%;
+}
+.header_logo a{
+    display: inline-block;
+}
+.header_logo img{
+    height: 28px;
+    width: auto;
+}
+.header_desno{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.tv_i_radio{
+    display: inline-block;
+}
+.tv_i_radio ul li{
+    display: inline-block;
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+}
+.tv_i_radio ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: inline-flex;
+    padding: 5px 6px;
+}
+.tv_i_radio ul li a svg {
+    margin-right: 7px; 
+}
+.navbar {
+    background-color: #fff;
+    width: 85%;
+    margin: 0 auto;
+    /*padding: 10px 120px;*/
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar ul li {
+    margin: 0 10px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #68243c;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+}
+.reklama{
+    margin: 10px auto;
+    width: 60%;
+    height: 250px;
+}
+.glavni_deo{
+    max-width: 100%;
+    padding: 15px 50px;
+    /*display: flex;
+    justify-content: space-around;*/
+}
+.slika_tekst{
+    height: 90%;
+}
+.tekst a{
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none; font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+.post_tekst{
+    border-left: 3px solid #ffd434;
+    padding: 10px 5px;
+    margin-right: 0;
+}
+.post_tekst a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #999;
+    text-transform: uppercase;
+}
+.komentar{
+    height: 8%;
+    margin-top: 5px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 3px solid #e8e8e8;
+}
+.komentar a{
+    text-decoration: none;
+    color: black;
+}
+.slika img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.sve_vesti{
+    display: flex;
+    gap: 20px;
+}
+.glavna_vest{
+    overflow: hidden;
+    height: 700px;
+    margin-right: 10px;
+    width: 50%;
+}
+.sporedne_vesti{
+    display: flex;
+    flex-wrap: wrap;
+    width: 49%;
+    height: 710px;
+}
+.vest{
+    margin: 5px;
+    width: 48%;
+    height: 48%;
+}
+.vest img{
+    width: 100%;
+    height: 50%;
+    border-radius: 3px;   
+}
+.vest a{
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none; font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+.donje_vesti{
+    width: 100%;
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+.vest1{
+    width: 24%;
+    height: 100%;
+}
+.vest1 img{
+    width: 100%;
+    height: 50%;
+    border-radius: 3px;   
+}
+.vest1 a{
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none; font-size: 22px;
+    font-weight: 600;
+    color: black;
+}
+.footer{
+    width: 100%;
+    background-color: #68243c;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.post_vest{
+    border-left: 3px solid #ffd434;
+    padding: 4px 5px;
+    margin-right: 0;
+}
+.post_vest a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #999;
+    text-transform: uppercase;
+}
