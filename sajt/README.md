@@ -1,1 +1,0 @@
-Postavljanje sajta na git
